@@ -10,9 +10,19 @@
 			body 
 			{
 				background-color: #232323;
-				font-family: "Franklin Gothic Book";
+				font-family: "Franklin Gothic Medium";
 				color: #FFFFFF
 			}
+			
+			.carousel-indicators li 
+			{
+				width: 10px;
+				height: 10px;
+				border-radius: 0%;
+				
+				background-color: #77B900;
+			}
+				
 		</style>
 	
 	</head>
@@ -60,6 +70,14 @@
 		<!-- News Carousel -->
 		
 		<div id="news-carousel" class="carousel slide" data-ride="carousel">
+		
+			<ol class="carousel-indicators">
+			
+				<li data-target="#news-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#news-carousel" data-slide-to="1"></li>
+				<li data-target="#news-carousel" data-slide-to="2"></li>
+				
+			</ol>
 			<div class="carousel-inner">
 				
 				<!-- First Carousel Item -->
@@ -70,14 +88,14 @@
 							
 							<!-- Advert Image -->
 							
-							<div class="col-lg-6 justify-content-center" style="background-color: #C4C4C4">
+							<div class="col-lg-6 justify-content-center" style="background-color: #000000">
 								<img class="d-block w-100 mx-auto" src="[0] Images/[4] Example_Advert_1.png" style="max-width: 450px; min-width: 450px;">
 							</div>
 							
 							<!-- Advert Title -->
 							
 							<div class="col-lg-6 justify-content-center mx-0 px-0">
-								<div class="container-fluid w-100 text-center mx-0" style="background-color: #3C3C3C">
+								<div class="container-fluid w-100 text-center mx-0" style="background-color: #000000">
 									<h1>RTX 3080</h1>
 								</div>
 								
@@ -91,7 +109,7 @@
 									<div class="d-flex container-fluid justify-content-center align-content-center mx-auto px-auto w-100">
 										<button class="btn" style="background-color: #77B900; color: #FFFFFF; font-size: 32px;">More Info</button>
 									</div>
-									<br>
+									<br><br>
 								</div>
 							</div>
 						</div>
@@ -106,14 +124,14 @@
 							
 							<!-- Advert Image -->
 							
-							<div class="col-lg-6 justify-content-center" style="background-color: #C4C4C4">
+							<div class="col-lg-6 justify-content-center" style="background-color: #000000">
 								<img class="d-block w-100 mx-auto" src="[0] Images/[4] Example_Advert_2.png" style="max-width: 450px; min-width: 450px;">
 							</div>
 							
 							<!-- Advert Title -->
 							
 							<div class="col-lg-6 justify-content-center mx-0 px-0">
-								<div class="container-fluid w-100 text-center mx-0" style="background-color: #3C3C3C">
+								<div class="container-fluid w-100 text-center mx-0" style="background-color: #000000">
 									<h1>RTX 3070</h1>
 								</div>
 								
@@ -127,7 +145,43 @@
 									<div class="d-flex container-fluid justify-content-center align-content-center mx-auto px-auto w-100">
 										<button class="btn" style="background-color: #77B900; color: #FFFFFF; font-size: 32px;">More Info</button>
 									</div>
-									<br>
+									<br><br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Third Carousel Item -->
+				
+				<div class="carousel-item">
+					<div class="container-fluid p-0" style="background-color: #000000">
+						<div class="row">
+							
+							<!-- Advert Image -->
+							
+							<div class="col-lg-6 justify-content-center" style="background-color: #000000">
+								<img class="d-block w-100 mx-auto" src="[0] Images/[4] Example_Advert_3.png" style="max-width: 450px; min-width: 450px;">
+							</div>
+							
+							<!-- Advert Title -->
+							
+							<div class="col-lg-6 justify-content-center mx-0 px-0">
+								<div class="container-fluid w-100 text-center mx-0" style="background-color: #000000">
+									<h1>RTX 3090</h1>
+								</div>
+								
+								<!-- Advert Description -->
+								
+								<p class="text-center" style="font-size: 23px; padding: 15px">The GeForce RTX™ 3090 is a big ferocious GPU (BFGPU) with TITAN class performance. It’s powered by Ampere—NVIDIA’s 2nd gen RTX architecture—doubling down on ray tracing and AI performance with enhanced Ray Tracing (RT) Cores, Tensor Cores, and new streaming multiprocessors. Plus, it features a staggering 24 GB of G6X memory, all to deliver the ultimate gaming experience.</p>
+								
+								<!-- More Info Button -->
+								
+								<div class="container-fluid w-100 mx-auto align-content-center h-50" style="background-color: #000000; padding-bottom: 10px;">
+									<div class="d-flex container-fluid justify-content-center align-content-center mx-auto px-auto w-100">
+										<button class="btn" style="background-color: #77B900; color: #FFFFFF; font-size: 32px;">More Info</button>
+									</div>
+									<br><br>
 								</div>
 							</div>
 						</div>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>NVIDIA Store</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		
+		<style>
+			body 
+			{
+				background-color: #232323;
+				font-family: "Franklin Gothic Medium";
+				color: #FFFFFF
+			}
+			
+			.carousel-indicators li 
+			{
+				width: 10px;
+				height: 10px;
+				border-radius: 0%;
+				
+				background-color: #77B900;
+			}
+				
+		</style>
+	
+	</head>
+	
+	<body>
+		
+		<!-- NVIDIA Logo - White navbar -->
+		
+		<nav class="navbar navbar-fixed-top justify-content-center" style="background-color: #FFFFFF;" id="title-bar">
+			<div class="mx-auto order-0">
+				<a class="navbar-brand mx-auto" href="#"><img src="[0] Images/[1] NVIDIA_Logo.png"></a>				
+			</div>
+		</nav>
+			
+		<!-- NVIDIA Store - Black navbar with two buttons -->
+		
+		<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #000000;" id="navigation-bar">
+			<div class="navbar w-100 p-0">
+				<ul class="navbar-nav mr-auto">
+					<div class="dropdown">
+						<button type="button" class="btn dropdown-toggle p-0" data-toggle="shopping-dropdown">
+							<img src="[0] Images/[3] Cart_Button_Icon.jpg" style="width: 75%;">
+						</button>
+					</div>
+				</ul>
+			</div>
+				
+			<div class="mx-auto order-0">
+				<a class="navbar-brand mx-auto text-center p-0" style="font-size: 36px">NVIDIA STORE</a>
+			</div>
+	
+			<div class="navbar w-100 p-0 order-3">
+				<ul class="navbar-nav ml-auto">
+					<div class="dropdown">
+						<button type="button" class="btn dropdown-toggle p-0" data-target="menu-dropdown">
+							<img src="[0] Images/[2] Dropdown_Menu_Button.png" style="width: 45%">
+						</button>
+					</div>
+				</ul>
+			</div>
+		</nav>
+		
+		<br>
+		
+		<!-- News Carousel -->
+		
+		<div id="news-carousel" class="carousel slide" data-ride="carousel">
+		
+			<ol class="carousel-indicators">
+			
+				<li data-target="#news-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#news-carousel" data-slide-to="1"></li>
+				<li data-target="#news-carousel" data-slide-to="2"></li>
+				
+			</ol>
+			<div class="carousel-inner">
+				
+				<!-- First Carousel Item -->
+				
+				<div class="carousel-item active">
+					<p>test</p>
+				</div>
+				
+				<!-- Second Carousel Item -->
+				
+				<div class="carousel-item">
+					<p>test 2</p>
+				</div>
+				
+				<!-- Third Carousel Item -->
+				
+				<div class="carousel-item">
+					<p>test 3</p>
+				</div>
+				
+			</div>	
+		</div>
+		
+	</body>
+	
+</html>
